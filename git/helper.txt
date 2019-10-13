@@ -1,3 +1,4 @@
+# begin 
 git init
 git add .
 git commit -m "first commit"
@@ -5,3 +6,9 @@ git config --global user.email "xiajrsx@sina.com"
 git commit -m "first commit"
 git remote add origin https://github.com/a1059725574/DeepLearning.git
 git push -u origin master
+
+# scond add
+git add .
+git commit -m "second add"
+git push origin master
+
