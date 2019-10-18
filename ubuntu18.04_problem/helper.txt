@@ -1,0 +1,1 @@
+ubuntu 18.04触控板右键失灵的解决方法: ubuntu的软件中心搜索gnome-tweak,安装运行, 到 keyboard & mouse tab>Mouse click emulation> AREA这个项打勾解决.
