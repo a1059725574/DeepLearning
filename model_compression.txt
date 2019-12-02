@@ -1,0 +1,1 @@
+1. Aggregated Residual Transformations for Deep Neural Networks 一个新的维度Cardinality， 对模型进行考量
