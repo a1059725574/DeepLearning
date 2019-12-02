@@ -1,2 +1,3 @@
 1. Aggregated Residual Transformations for Deep Neural Networks 一个新的维度Cardinality， 对模型进行考量
 2. Pruning Filters for Efficient Convnets 作者提出了基于量级的裁剪方式，用weight值的大小来评判其重要性，对于一个filter，其中所有weight的绝对值求和，来作为该filter的评价指标，将一层中值低的filter裁掉，可以有效的降低模型的复杂度并且不会给模型的性能带来很大的损。思路非常简单，就是认为参数越小则越不重要。
+3. Pruning Convolutional Neural Networks for Resource Efficient Transfer Learning Inference 即通过将每一个weight单独的剔除后看模型损失函数的衰减，将衰减最少的参数认为是不重要的参数。
